@@ -1,0 +1,113 @@
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.product-image img {
+    max-width: 300px;
+    height: auto;
+    position: relative;
+    border-radius: 5px;
+}
+
+.product-info {
+    flex: 1;
+    padding: 0 20px;
+    padding-left: 40px;
+    margin-top: -50px;
+}
+
+.product-name {
+    margin-bottom: 30px;
+}
+
+.product-image,
+.product-specs span {
+    font-size: 17px;
+}
+
+.product-image,
+.product-specs input[type='text'] {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.product-category,
+.product-price,
+.product-description {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.product-category span {
+    width: 100px;
+}
+
+.product-specs {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-specs p {
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.product-specs span {
+    font-weight: bold;
+}
+
+.product-specs p {
+    display: flex;
+    align-items: center;
+}
+
+.product-specs p span {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: 100px;
+}
+
+.product-specs p input {
+    flex: 1;
+}
+
+.product-specs input {
+    width: 300px;
+    height: 30px;
+}
+
+.product-quantity {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.category {
+    padding-left: 10px;
+    font-weight: normal;
+}
+
+.button {
+    position: absolute;
+    top: 610px;
+    left: 750px;
+}
+
+.button button {
+    width: 180px;
+    height: 40px;
+    font-size: 17px;
+    background-color: rgb(183, 217, 113);
+    padding: 0 10px;
+    border-radius: 80px;
+}
+
+.button button:hover {
+    transition: 0.35s ease-in-out;
+    background-color: yellow;
+    cursor: pointer;
+}
